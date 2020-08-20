@@ -818,15 +818,15 @@ main.content-2.open {
 }
 
 section {
-  padding-top: 110px;
+  padding-top: 20px;
   position: relative;
 }
 
 section.home {
   background: #353353;
   padding: 0;
-  height: 60vh;
-  min-height: 60vh;
+  height: 58vh;
+  min-height: 58vh;
 }
 section.home .intro {
   margin: auto;
@@ -2289,6 +2289,10 @@ body.dark footer.footer {
   height: 6px;
   width: 10px;
 }
+.text-center.text-md-left img {
+  width: 100%;
+  border-radius: 10%;
+}
 
 /*=================================================================*/
 /*                      RESPONSIVE SETTINGS
@@ -2349,7 +2353,9 @@ body.dark footer.footer {
   section.home {
     padding: 300px 0;
   }
-
+  .text-center.text-md-left img {
+    width: 50%;
+  }
   .portfolio-filter {
     display: none;
   }
@@ -2401,7 +2407,9 @@ body.dark footer.footer {
   .container {
     max-width: 920px;
   }
-
+  .text-center.text-md-left img {
+    width: 90%;
+  }
   .triangle-left-md:before {
     content: "";
     width: 0;
@@ -2422,6 +2430,9 @@ body.dark footer.footer {
   .portfolio-info li {
     display: block;
     padding: 5px 0;
+  }
+  .text-center.text-md-left img {
+    width: 50%;
   }
 
   .parallax .p1 {
@@ -2515,4 +2526,8 @@ body.dark footer.footer {
 /*# sourceMappingURL=style.css.map */
 #btmicons {
   color: black;
+}
+
+header.desktop-header-3.fixed-top {
+  border-bottom: 1px solid #ccc;
 }
