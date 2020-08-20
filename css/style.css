@@ -825,8 +825,8 @@ section {
 section.home {
   background: #353353;
   padding: 0;
-  height: 58vh;
-  min-height: 58vh;
+  height: 60vh;
+  min-height: 60vh;
 }
 section.home .intro {
   margin: auto;
